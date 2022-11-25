@@ -30,7 +30,7 @@ body {
 }
 
 .textjmb2{
-    margin-bottom: 40px;
+    margin-bottom: 60px;
 }
 
 .logogb {
@@ -42,3 +42,8 @@ body {
     margin-top: 10px;
 }
 
+.titleTeam{
+    color: red;
+    font-family: 'Pangolin', cursive;
+    margin-top: 40px;
+}

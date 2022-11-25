@@ -3,11 +3,10 @@ import React from "react";
 
 //include images into your bundle
 
-import Card from "./card.jsx";
 import Jumbotron from "./jumbotron.jsx";
 import NavBar from "./navbar.jsx";
 import Footer from "./footer.jsx";
-
+import CardContainer from "./cardcontainer.jsx";
 
 
 //create your first component
@@ -18,11 +17,11 @@ const Home = () => {
 			<NavBar/>
 			<div>	
 				<Jumbotron/>	
-				<h1 className="title">Meet our team!</h1>
+				<h1 className="titleTeam">Nuestro equipo!</h1>
 			</div>
 		</div>
 		<div className="card-group">
-			<Card/>
+		<CardContainer/>
 		</div>	
 			<Footer/>
 	</div>	
