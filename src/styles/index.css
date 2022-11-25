@@ -1,12 +1,44 @@
 
-/* 
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+body {
+    background-color: rgb(37, 35, 35);
+}
 
-*/
+.jumbotron {
+    background-size: cover;
+    height: 500px;
+    
+}
+
+.logo{
+    padding:15px;
+    height: 150px;
+    width: 750px;
+   
+}
+
+.textjmb, .textjmb2 {
+    text-shadow: 1px 1px 2px rgb(255, 255, 255);  
+    font-size: 25px; 
+    color: rgb(0, 0, 0);
+    font-family: 'Pangolin', cursive;
+   
+}
+
+.textjmb{
+    margin-top: 80px;
+}
+
+.textjmb2{
+    margin-bottom: 40px;
+}
+
+.logogb {
+    margin: 5px;
+    
+}
+
+.card-title{
+    margin-top: 10px;
+}
+

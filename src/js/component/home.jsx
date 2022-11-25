@@ -8,15 +8,24 @@ import Jumbotron from "./jumbotron.jsx";
 import NavBar from "./navbar.jsx";
 import Footer from "./footer.jsx";
 
+
+
 //create your first component
 const Home = () => {
 	return (
+	<div className="all">	
 		<div className="text-center">
-			<NavBar/>	
-			<Jumbotron/>
-			<Card/>
-			<Footer/>
+			<NavBar/>
+			<div>	
+				<Jumbotron/>	
+				<h1 className="title">Meet our team!</h1>
+			</div>
 		</div>
+		<div className="card-group">
+			<Card/>
+		</div>	
+			<Footer/>
+	</div>	
 	);
 };
 

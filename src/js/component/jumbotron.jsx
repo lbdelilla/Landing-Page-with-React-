@@ -1,18 +1,17 @@
 import React from "react";
-
+import allofthem from "../../img/allofthem.png";
+import font from "../../img/font.png";
 
 const Jumbotron = () => {
     return (
-        <div className="jumbotron">
-            <h1 className="display-4">Hello, world!</h1>
-            <p className="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
-            <hr className="my-4"/>
-            <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-            <p className="lead"><a className="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p>
+        <div className="jumbotron" style={{backgroundImage: `url(${allofthem})`}}>
+            <img className="logo" src={font} alt="ghostbuster logo"/>
+            <p className="textjmb"><strong>Ser cazafantasmas no solo es nuestra profesión, es nuestra pasión!</strong></p>            
+            <p className="textjmb2"><strong>Si sientes ruidos extraños, si tus puertas abren o cierran solas o si tienes a Slimer comiendo la comida de tu nevera..</strong></p>
+            <p className="lead"><a className="btn btn-dark btn-lg" href="https://es.wikipedia.org/wiki/Los_cazafantasmas" target="_blank" role="button">Contáctanos!</a></p>
         </div>
     );
 };
-
 
 
 export default Jumbotron;
