@@ -22,15 +22,17 @@ body {
     font-size: 25px; 
     color: rgb(0, 0, 0);
     font-family: 'Pangolin', cursive;
+    
    
 }
 
 .textjmb{
-    margin-top: 80px;
+    margin-top: 160px;
 }
 
 .textjmb2{
-    margin-bottom: 60px;
+    margin-bottom: 20px;
+    
 }
 
 .logogb {
@@ -46,4 +48,5 @@ body {
     color: red;
     font-family: 'Pangolin', cursive;
     margin-top: 40px;
+    text-shadow: 1px 2px 2px white;
 }
